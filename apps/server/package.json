@@ -12,6 +12,7 @@
   "type": "module",
   "dependencies": {
     "@hono/node-server": "^1.19.11",
+    "@repo/db": "workspace:*",
     "@repo/schemas": "workspace:*",
     "hono": "^4.12.25"
   },

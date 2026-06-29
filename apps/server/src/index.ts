@@ -23,7 +23,7 @@ app.post('/createjob', async (c) => {
   return c.json({ status: 'ok', data: parsed.data })
 })
 
-const port = Number(process.env.PORT) || 9191
+const port = Number(process.env.PORT) || 5001
 
 const server = serve({
   fetch: app.fetch,
